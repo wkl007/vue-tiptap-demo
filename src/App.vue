@@ -1,24 +1,28 @@
 <template>
   <div class="container">
     <a-typography-title :level="3">span 嵌套</a-typography-title>
-    <span style="font-size: 14px;color: red">没有嵌套<span style="font-size: 18px;color: blue">嵌套一层<span
+    <span id="1" style="font-size: 14px;color: red">没有嵌套<span style="font-size: 18px;color: blue">嵌套一层<span
       style="font-size: 22px;color: green">嵌套二层<span
-      style="font-size: 24px;color: deeppink">嵌套三层</span></span></span></span>
+      style="font-size: 26px;color: deeppink">嵌套三层<span
+      style="font-size: 26px;color: deeppink">嵌套四层</span></span></span></span></span>
     <a-typography-title :level="3">b 嵌套</a-typography-title>
     <b style="font-size: 14px;color: red">没有嵌套<b style="font-size: 18px;color: blue">嵌套一层<b
       style="font-size: 22px;color: green">嵌套二层<b
-      style="font-size: 24px;color: deeppink">嵌套三层</b></b></b></b>
+      style="font-size: 26px;color: deeppink">嵌套三层<b
+      style="font-size: 26px;color: deeppink">嵌套四层</b></b></b></b></b>
     <a-typography-title :level="3">strong 嵌套</a-typography-title>
     <strong style="font-size: 14px;color: red">没有嵌套<strong style="font-size: 18px;color: blue">嵌套一层<strong
       style="font-size: 22px;color: green">嵌套二层<strong
-      style="font-size: 24px;color: deeppink">嵌套三层</strong></strong></strong></strong>
+      style="font-size: 26px;color: deeppink">嵌套三层<strong
+      style="font-size: 26px;color: deeppink">嵌套四层</strong></strong></strong></strong></strong>
     <a-typography-title :level="3">em 嵌套</a-typography-title>
     <em style="font-size: 14px;color: red">没有嵌套<em style="font-size: 18px;color: blue">嵌套一层<em
       style="font-size: 22px;color: green">嵌套二层<em
-      style="font-size: 24px;color: deeppink">嵌套三层</em></em></em></em>
-    <a-typography-title :level="4">未处理parseHTML</a-typography-title>
+      style="font-size: 26px;color: deeppink">嵌套三层<em
+      style="font-size: 26px;color: deeppink">嵌套四层</em></em></em></em></em>
+    <a-typography-title :level="4">未处理样式</a-typography-title>
     <div class="editor" ref="editor1"></div>
-    <a-typography-title :level="4">已处理parseHTML</a-typography-title>
+    <a-typography-title :level="4">已处理样式</a-typography-title>
     <div class="editor" ref="editor2"></div>
   </div>
 </template>
